@@ -55,7 +55,7 @@ h3 {
   background-color: #000;
   color: #fff;
   padding: 18px;
-  font-size: 25px;
+  font-size: 25pt;
   letter-spacing: 2px;
   opacity: 0.50;
 }
@@ -89,5 +89,17 @@ h3 {
 @media only screen and (max-device-width: 1024px) {
     .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
         background-attachment: scroll;
+    }
+    .comment {
+      font-size: 16pt;
+    }
+    .logo{
+      font-size: 20pt;
+    }
+    h2 {
+      font-size: 16pt;
+    }
+    h3{
+      font-size: 14pt;
     }
 }
