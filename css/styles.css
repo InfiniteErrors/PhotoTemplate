@@ -102,4 +102,7 @@ h3 {
     h3{
       font-size: 14pt;
     }
+    .mediumTextBox {
+      padding: 25px 90px 25px 90px; 
+    }
 }
