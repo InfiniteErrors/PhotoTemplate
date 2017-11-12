@@ -85,3 +85,9 @@ h3 {
   padding: 50px 90px 50px 90px;
   text-align: center;
 }
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+        background-attachment: scroll;
+    }
+}
