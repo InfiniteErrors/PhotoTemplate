@@ -22,8 +22,12 @@ h3 {
   font-size: 16pt;
 }
 
+li {
+  font-weight: 300;
+}
+
 .bgimage1 {
-  background-image: url("../images/landRover2.jpg");
+  background-image: url("../images/whiteroom.jpg");
   min-height: 750px;
   /* Create the parallax scrolling effect */
 }
@@ -37,8 +41,8 @@ h3 {
   }
 
 .bgimage2 {
-  background-image: url("../images/beanie.jpg");
-  min-height: 500px;
+  background-image: url("../images/ski.jpg");
+  min-height: 400px;
 }
 .bgimage3 {
   background-image: url("../images/snowboard.jpg");
@@ -47,11 +51,11 @@ h3 {
 
 .bgimage4 {
   background-image: url("../images/mountains.jpg");
-  min-height: 1000px;
+  min-height: 750px;
 }
 
 
-.logo {
+.opening-header {
   background-color: #000;
   color: #fff;
   padding: 18px;
@@ -61,8 +65,9 @@ h3 {
 }
 
 .comment {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18pt;
+    text-align: center;
 }
 
 .caption {
@@ -74,16 +79,36 @@ h3 {
   color: #000;
 }
 
+.profile-pic{
+  max-width: 150px;
+  max-height: 150px;
+}
+
 .mediumTextBox {
-  background-color: #CFD8DC;
+  background-color: #ffffff;
+  padding: 50px 90px 50px 90px;
+  text-align: left;
+}
+
+.smallTextBox {
+  background-color: #ffffff;
   padding: 50px 90px 50px 90px;
   text-align: center;
 }
 
-.smallTextBox {
-  background-color: #78909C;
-  padding: 50px 90px 50px 90px;
-  text-align: center;
+.carousel {
+  max-width: 85%;
+  margin: auto;
+}
+
+.carousel-item {
+  max-height: 700px;
+}
+.grey{
+  color:  #bdbdbd;
+}
+.teal{
+  color:  #26c6da ;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -93,8 +118,8 @@ h3 {
     .comment {
       font-size: 14pt;
     }
-    .logo{
-      font-size: 20pt;
+    .opening-header {
+      font-size: 16pt;
     }
     h2 {
       font-size: 16pt;
@@ -103,6 +128,20 @@ h3 {
       font-size: 14pt;
     }
     .mediumTextBox {
-      padding: 25px 40px 25px 40px; 
+      padding: 25px 40px 25px 40px;
+    }
+    .smallTextBox {
+      background-color: #ffffff;
+      padding: 15px 40px 15px 40px;
+      text-align: center;
+    }
+    .carousel {
+      max-width: 95%;
+      max-height: 600px;
+      margin: auto;
+      padding-bottom: 15px;
+    }
+    #mobile{
+      display: none;
     }
 }
