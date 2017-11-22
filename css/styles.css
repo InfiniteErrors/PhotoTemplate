@@ -42,18 +42,19 @@ a:hover {
 }
 
 .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
-    /* Create the parallax scrolling effect */
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Create the parallax scrolling effect */
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .bgimage2 {
   background-image: url("../images/ski.jpg");
   min-height: 500px;
 }
+
 .bgimage3 {
   background-image: url("../images/snowboard.jpg");
   min-height: 250px;
@@ -63,7 +64,6 @@ a:hover {
   background-image: url("../images/mountains.jpg");
   min-height: 750px;
 }
-
 
 .opening-header {
   background-color: #000;
@@ -75,9 +75,9 @@ a:hover {
 }
 
 .comment {
-    font-weight: 400;
-    font-size: 18pt;
-    text-align: center;
+  font-weight: 400;
+  font-size: 18pt;
+  text-align: center;
 }
 
 .caption {
@@ -89,8 +89,8 @@ a:hover {
   color: #000;
 }
 
-.coffee:hover{
-  color:  #26c6da;
+.coffee:hover {
+  color: #26c6da;
   transition-duration: .5s;
   transition-timing-function: linear;
 }
@@ -116,11 +116,13 @@ a:hover {
 .carousel-item {
   max-height: 700px;
 }
-.grey{
-  color:  #bdbdbd;
+
+.grey {
+  color: #bdbdbd;
 }
-.teal{
-  color:  #26c6da;
+
+.teal {
+  color: #26c6da;
 }
 
 @media screen and (max-width: 675px) {
@@ -130,36 +132,36 @@ a:hover {
   .navbar-brand {
     font-size: 14pt;
   }
-    .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
-        background-attachment: scroll;
-    }
-    .comment {
-      font-size: 14pt;
-    }
-    .opening-header {
-      font-size: 18pt;
-    }
-    h2 {
-      font-size: 18pt;
-    }
-    h3{
-      font-size: 14pt;
-    }
-    .mediumTextBox {
-      padding: 25px 40px 25px 40px;
-    }
-    .smallTextBox {
-      background-color: #ffffff;
-      padding: 15px 40px 15px 40px;
-      text-align: center;
-    }
-    .carousel {
-      max-width: 100%;
-      max-height: 600px;
-      margin: auto;
-      padding-bottom: 15px;
-    }
-    .no-display{
-      display: none;
-    }
+  .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+    background-attachment: scroll;
+  }
+  .comment {
+    font-size: 14pt;
+  }
+  .opening-header {
+    font-size: 18pt;
+  }
+  h2 {
+    font-size: 18pt;
+  }
+  h3 {
+    font-size: 14pt;
+  }
+  .mediumTextBox {
+    padding: 25px 40px 25px 40px;
+  }
+  .smallTextBox {
+    background-color: #ffffff;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+  }
+  .carousel {
+    max-width: 100%;
+    max-height: 600px;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+  .no-display {
+    display: none;
+  }
 }
