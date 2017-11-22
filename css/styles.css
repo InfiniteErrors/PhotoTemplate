@@ -130,38 +130,55 @@ a:hover {
     font-size: 14pt;
   }
   .navbar-brand {
-    font-size: 14pt;
+    font-size: 12pt;
   }
   .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
     background-attachment: scroll;
+  }
+  .bgimage2 {
+    background-image: url("../images/ski.jpg");
+    min-height: 400px;
+  }
+  .bgimage4 {
+    background-image: url("../images/mountains.jpg");
+    min-height: 550px;
   }
   .comment {
     font-size: 14pt;
   }
   .opening-header {
-    font-size: 18pt;
+    font-size: 16pt;
   }
   h2 {
-    font-size: 18pt;
+    font-size: 16pt;
   }
   h3 {
     font-size: 14pt;
+  }
+  .lead {
+    font-size: 12pt;
   }
   .mediumTextBox {
     padding: 25px 40px 25px 40px;
   }
   .smallTextBox {
     background-color: #ffffff;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 0 15px 0;
     text-align: center;
   }
   .carousel {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 700px;
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
   }
   .no-display {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .instagram {
     display: none;
   }
 }
