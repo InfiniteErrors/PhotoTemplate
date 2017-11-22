@@ -1,5 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16pt;
 }
 
 p {
@@ -7,8 +8,9 @@ p {
 }
 
 h2 {
-  font-weight: 300;
-  font-size: 18pt;
+  font-weight: 400;
+  font-size: 28pt;
+  text-align: center;
 }
 
 h3 {
@@ -26,13 +28,21 @@ li {
   font-weight: 300;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 18pt;
+}
+
 .bgimage1 {
   background-image: url("../images/whiteroom.jpg");
   min-height: 750px;
-  /* Create the parallax scrolling effect */
 }
 
 .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
+    /* Create the parallax scrolling effect */
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -42,7 +52,7 @@ li {
 
 .bgimage2 {
   background-image: url("../images/ski.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 .bgimage3 {
   background-image: url("../images/snowboard.jpg");
@@ -59,9 +69,9 @@ li {
   background-color: #000;
   color: #fff;
   padding: 18px;
-  font-size: 25pt;
+  font-size: 32pt;
   letter-spacing: 2px;
-  opacity: 0.50;
+  opacity: 0.60;
 }
 
 .comment {
@@ -79,20 +89,22 @@ li {
   color: #000;
 }
 
-.profile-pic{
-  max-width: 150px;
-  max-height: 150px;
+.coffee:hover{
+  color:  #26c6da;
+  transition-duration: .5s;
+  transition-timing-function: linear;
 }
 
 .mediumTextBox {
   background-color: #ffffff;
-  padding: 50px 90px 50px 90px;
-  text-align: left;
+  margin: auto;
+  max-width: 630px;
+  padding: 50px 0 50px 0;
 }
 
 .smallTextBox {
   background-color: #ffffff;
-  padding: 50px 90px 50px 90px;
+  padding: 30px 90px 30px 90px;
   text-align: center;
 }
 
@@ -108,10 +120,16 @@ li {
   color:  #bdbdbd;
 }
 .teal{
-  color:  #26c6da ;
+  color:  #26c6da;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media screen and (max-width: 675px) {
+  body {
+    font-size: 14pt;
+  }
+  .navbar-brand {
+    font-size: 14pt;
+  }
     .bgimage1, .bgimage2, .bgimage3, .bgimage4 {
         background-attachment: scroll;
     }
@@ -119,10 +137,10 @@ li {
       font-size: 14pt;
     }
     .opening-header {
-      font-size: 16pt;
+      font-size: 18pt;
     }
     h2 {
-      font-size: 16pt;
+      font-size: 18pt;
     }
     h3{
       font-size: 14pt;
@@ -136,12 +154,12 @@ li {
       text-align: center;
     }
     .carousel {
-      max-width: 95%;
+      max-width: 100%;
       max-height: 600px;
       margin: auto;
       padding-bottom: 15px;
     }
-    #mobile{
+    .no-display{
       display: none;
     }
 }
